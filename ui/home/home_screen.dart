@@ -3,6 +3,7 @@ import 'package:myapp/data/categories_data.dart';
 import 'package:myapp/data/restaurant_data.dart';
 import 'package:myapp/model/restaurant.dart';
 import 'package:provider/provider.dart';
+import '../_cors/widgets/appbar.dart';
 import 'widgets/category_widgets.dart';
 import 'widgets/restaurant_widget.dart';
 
@@ -14,12 +15,7 @@ class HomeScreen extends StatelessWidget {
     RestaurantData restaurantData = Provider.of<RestaurantData>(context);
     return Scaffold(
       drawer: Drawer(),
-      appBar: AppBar(
-        actions: [
-          IconButton(onPressed: () {}, icon: Icon(Icons.search)),
-          IconButton(onPressed: () {}, icon: Icon(Icons.shopping_cart)),
-        ],
-      ),
+      appBar: getAppBar(context: context),
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 24.0),
         child: SingleChildScrollView(
