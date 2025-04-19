@@ -1,16 +1,18 @@
-# myapp
+# Food Delivery App
 
-A new Flutter project.
+## Descrição
+
+O Food Delivery App é um aplicativo Flutter desenvolvido para demonstrar a implementação de um sistema de delivery de comida. O projeto foi feito para estudo e prática dos conceitos de widgets, navegação, gerenciamento de estados, requisições assíncronas e integração de dados.
+
+## Funcionalidades Principais
+
+*   **Listagem de Restaurantes:** Exibe uma lista de restaurantes disponíveis.
+*   **Detalhes do Restaurante:** Permite visualizar os detalhes de um restaurante, incluindo pratos disponíveis.
+*   **Adicionar ao Carrinho:** Adiciona pratos ao carrinho de compras.
+*   **Checkout:** Lista os pratos adicionados ao carrinho, com a opção de adicionar ou remover itens.
+*   **Busca por categoria:** Permite a busca de pratos e restaurantes por categoria.
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Este projeto é um ponto de partida para um aplicativo Flutter.
